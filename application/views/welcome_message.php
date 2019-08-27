@@ -62,8 +62,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="row h-100">
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
-            <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+            <h1 class="mb-5">
+Muestra tus productos y paga solo cuando se efectúen pedidos, para tu empresa no tiene costo de inversión, Ventun tu mejor vendedor
+            </h1>
+            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Comienza ahora, es gratis!</a>
           </div>
         </div>
         <div class="col-lg-5 my-auto">
@@ -88,12 +90,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <section class="download bg-primary text-center" id="download">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h2 class="section-heading">Descubre todo lo que es Ventun!</h2>
+        <div class="col-md-12 mx-auto">
+          <h5 class="section-heading">
+Ventun - Ventas es una aplicación diseñada para optimizar el proceso de ventas, ampliando el alcance y facilitando el proceso para las empresas.
+          </h5>
           <p>Nuetra aplication esta disponible para descargar! Comienza ahora!</p>
           <div class="badges">
             <a class="badge-link" href="#"><img src="<?php echo base_url();?>assets/img/google-play-badge.svg" alt=""></a>
-            <a class="badge-link" href="#"><img src="<?php echo base_url();?>assets/img/app-store-badge.svg" alt=""></a>
+            <!-- <a class="badge-link" href="#"><img src="<?php echo base_url();?>assets/img/app-store-badge.svg" alt=""></a>-->
           </div>
         </div>
       </div>
@@ -103,8 +107,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <section class="features" id="features">
     <div class="container">
       <div class="section-heading text-center">
-        <h2>Sin limetes, Descubre todo lo que podes hacer ahora</h2>
-        <p class="text-muted">Check out what you can do with this app theme!</p>
+        <h3>
+Ventun-Ventas hace más simple y rápido hacer los pedidos para abastecer tu negocio sin horarios limitados, tu pedidos no dependen de otras personas.
+        </h3>
+        <p class="text-muted"> </p>
         <hr>
       </div>
       <div class="row">
@@ -128,16 +134,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row">
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-screen-smartphone text-primary"></i>
-                  <h3>Device Mockups</h3>
-                  <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                  <i class="icon-credit-card text-primary"></i>
+                  <h3></h3>
+                  <p class="text-muted">Sin pagar nada extra, llega mas lejos y simplifica tu proceso de ventas.</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-camera text-primary"></i>
-                  <h3>Flexible Use</h3>
-                  <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                  <i class="icon-energy text-primary"></i>
+                  <h3></h3>
+                  <p class="text-muted">haz ofertas y anuncia nuevos productos, de manera más rápida.</p>
                 </div>
               </div>
             </div>
@@ -145,15 +151,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="icon-present text-primary"></i>
-                  <h3>Free to Use</h3>
-                  <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                  <h3></h3>
+                  <p class="text-muted"> Solo haz tus compras por nosotros y acumula puntos para recibir premios por tu fidelidad.</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-lock-open text-primary"></i>
-                  <h3>Open Source</h3>
-                  <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                  <i class="icon-list text-primary"></i>
+                  <h3></h3>
+                  <p class="text-muted"> Registra nuevos negocios y gana una comisión por los pedidos que hagan.</p>
                 </div>
               </div>
             </div>
@@ -166,8 +172,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <section class="cta">
     <div class="cta-content">
       <div class="container">
-        <h2>Stop waiting.<br>Start building.</h2>
-        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+        <h3 style="color: #ffffff;">Te sirve de mucho sin que hagas inversiones.<br>deja de esperar y registrate.</h3>
+        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Comienza ahora!</a>
       </div>
     </div>
     <div class="overlay"></div>
