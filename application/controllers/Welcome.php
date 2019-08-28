@@ -21,11 +21,11 @@ class Welcome extends CI_Controller {
     {	
     	$config = Array(
 	         'protocol'  => 'smtp',
-	         'smtp_host' => 'ssl://ngelrojasp.com',
+	         'smtp_host' => 'ssl://me.com',
 	         'smtp_crypto' => 'ssl',
 	         'smtp_port' => 465,
-	         'smtp_user' => 'me@ngelrojasp.com', 
-	         'smtp_pass' => 'ngelrojasp2019*', 
+	         'smtp_user' => '******', 
+	         'smtp_pass' => '*****', 
 	         'mailtype'  => 'html',
 	         'charset'  => 'iso-8859-1',
 	         'wordwrap'  => TRUE,
@@ -93,10 +93,10 @@ class Welcome extends CI_Controller {
 			$cell = $_POST['cell_email'];
 	        // SMTP configuration
 	        $mail->isSMTP();
-	        $mail->Host     = 'ngelrojasp.com';
+	        $mail->Host     = 'me.com';
 	        $mail->SMTPAuth = true;
-	        $mail->Username = 'me@ngelrojasp.com';
-	        $mail->Password = 'ngelrojasp2019*';
+	        $mail->Username = '****';
+	        $mail->Password = '****';
 	        $mail->SMTPSecure = 'ssl';
 	        $mail->Port     = 465;
 	        

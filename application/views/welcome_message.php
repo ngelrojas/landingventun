@@ -19,9 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!-- Custom fonts for this template -->
   <link href="<?php echo base_url();?>assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo base_url();?>assets/vendor/simple-line-icons/css/simple-line-icons.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
   <!-- Plugin CSS -->
   <link rel="stylesheet" href="<?php echo base_url()?>assets/device-mockups/device-mockups.min.css">
@@ -187,27 +185,27 @@ Ventun-Ventas hace más simple y rápido hacer los pedidos para abastecer tu neg
 		<div class="form-send">
 	        <form id="send_form" method="POST" class="form" >
 	          <div class="form-group">
-	            <label class="col-6" >
+	            <label class="col-6 col-12" >
 	              <input type="text" name="name_email" class="form-control" id="name_email" placeholder="Nombre y Apellido" required/>
 	              <span class="name_email">este campo es requerido</span>
 	            </label>            
 	          </div>
 	          <div class="form-group">
-	              <label class="col-6">
+	              <label class="col-6 col-12">
 	              <input type="email" name="from_email" id="from_email" class="form-control" placeholder="Email" required/>
 	              <span class="from_email">este campo es requerido</span>
 	              <span class="from_email_format">debe ser un email valido</span>
 	            </label>
 	          </div>
 		    	<div class="form-group">
-		            <label class="col-6">
+		            <label class="col-6 col-12">
 		              <input type="text" name="cell_email" id="cell_email" class="form-control" placeholder="Numero de Telefono o Celular" required/>
 		              <span class="cell_email">este campo es requerido</span>
 		              <span class="cell_email_format">este campo es requerido</span>
 		            </label>
 	        	</div> 
 	          <div class="form-group">
-	            <label class="col-6">
+	            <label class="col-6 col-12">
 
 	              <textarea name="message" id="message_email" class="form-control" cols="30" rows="10" placeholder="Mensaje"> </textarea>
 	              <span class="message_email">este campo es requerido</span>
