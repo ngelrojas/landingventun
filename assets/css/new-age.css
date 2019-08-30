@@ -56,9 +56,9 @@ section {
   padding: 100px 0;
 }
 
-section h2 {
+/*section h2 {
   font-size: 50px;
-}
+*/}
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
@@ -204,7 +204,7 @@ header.masthead .device-container .screen img {
 
 section.download {
   position: relative;
-  padding: 150px 0;
+  padding: 35px 0;
 }
 
 section.download h2 {
@@ -223,6 +223,7 @@ section.download .badges .badge-link:last-child {
 
 section.download .badges .badge-link img {
   height: 60px;
+  margin-top: 15%;
 }
 
 @media (min-width: 768px) {
@@ -456,4 +457,32 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   margin: 2%;
   display: none;
   color: red;
+}
+.device{
+    margin-top: 15%;
+}
+.header-content > h1 > .mb-5{
+    margin-top: 15%;
+}
+.container a > .logo-ventun{
+    max-width: 20%;
+}
+
+@media screen and (max-width: 480px){
+    .container > a{
+        width: 70%; 
+    }
+    .container > a > img{
+        width: 70%; 
+    }
+    .container > div > ul{
+        float: right; 
+    }
+    .container a > .logo-ventun{
+        max-width: 20%;
+    }
+    #mainNav .navbar-toggler{ color: #dddddd; }
+    #mainNav .navbar-nav > li > a, #mainNav .navbar-nav > li > a:focus{
+        color: #dddddd; 
+    }
 }

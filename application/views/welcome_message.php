@@ -34,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">VENTUN</a>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="logo-ventun" src="<?php echo base_url()?>assets/img/logo-ventun.png"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -42,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#download">Descargar</a>
+            <a class="nav-link js-scroll-trigger nav-ventun-link" href="#download">Descargar</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#features">Novedades</a>
@@ -89,10 +89,10 @@ Muestra tus productos y paga solo cuando se efectúen pedidos, para tu empresa n
     <div class="container">
       <div class="row">
         <div class="col-md-12 mx-auto">
-          <h5 class="section-heading">
-Ventun - Ventas es una aplicación diseñada para optimizar el proceso de ventas, ampliando el alcance y facilitando el proceso para las empresas.
-          </h5>
-          <p>Nuetra aplication esta disponible para descargar! Comienza ahora!</p>
+          <h3 class="section-heading">
+Ventun es una aplicación diseñada para optimizar el proceso de ventas, ampliando el alcance y facilitando el proceso para las empresas.
+          </h3>
+          <p>Nuetra aplicación esta disponible para descargar! Comienza ahora!</p>
           <div class="badges">
             <a class="badge-link" href="#"><img src="<?php echo base_url();?>assets/img/google-play-badge.svg" alt=""></a>
             <!-- <a class="badge-link" href="#"><img src="<?php echo base_url();?>assets/img/app-store-badge.svg" alt=""></a>-->
@@ -106,7 +106,7 @@ Ventun - Ventas es una aplicación diseñada para optimizar el proceso de ventas
     <div class="container">
       <div class="section-heading text-center">
         <h3>
-Ventun-Ventas hace más simple y rápido hacer los pedidos para abastecer tu negocio sin horarios limitados, tu pedidos no dependen de otras personas.
+Ventun hace más simple y rápido hacer los pedidos para abastecer tu negocio sin horarios limitados, tu pedidos no dependen de otras personas.
         </h3>
         <p class="text-muted"> </p>
         <hr>
@@ -170,7 +170,7 @@ Ventun-Ventas hace más simple y rápido hacer los pedidos para abastecer tu neg
   <section class="cta">
     <div class="cta-content">
       <div class="container">
-        <h3 style="color: #ffffff;">Te sirve de mucho sin que hagas inversiones.<br>deja de esperar y registrate.</h3>
+        <h3 style="color: #ffffff; margin-bottom:5%;">Te sirve de mucho sin que hagas inversiones.<br>deja de esperar y registrate.</h3>
         <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Comienza ahora!</a>
       </div>
     </div>
