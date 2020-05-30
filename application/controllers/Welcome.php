@@ -15,7 +15,13 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$this->load->view('welcome_message');
-	}
+    }
+
+    public function privacy()
+    {
+        $this->load->helper('url');
+        $this->load->view('privacy');
+    }
 
 	/*public function sendemail()
     {	
@@ -93,10 +99,10 @@ class Welcome extends CI_Controller {
 			$cell = $_POST['cell_email'];
 	        // SMTP configuration
 	        $mail->isSMTP();
-	        $mail->Host     = 'me.com';
+	        $mail->Host     = 'info@ventun.com';
 	        $mail->SMTPAuth = true;
-	        $mail->Username = '****';
-	        $mail->Password = '****';
+	        $mail->Username = 'info@ventun.com';
+	        $mail->Password = 'robertVentun2019*';
 	        $mail->SMTPSecure = 'ssl';
 	        $mail->Port     = 465;
 	        

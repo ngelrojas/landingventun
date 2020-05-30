@@ -48,6 +48,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a class="nav-link js-scroll-trigger" href="#features">Novedades</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#tutoriales">Tutoriales</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contactos</a>
           </li>
         </ul>
@@ -177,6 +180,16 @@ Ventun hace más simple y rápido hacer los pedidos para abastecer tu negocio si
     <div class="overlay"></div>
   </section>
 
+  <section class="tutorial" id="tutoriales">
+    <div class="container"> 
+        <h1>Tutorial Ventun</h1>
+         <video width="520" height="440" controls>
+          <source src="<?php echo base_url()?>assets/multimedia/ventun.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video> 
+    </div>
+  </section>
+
   <section class="contact bg-primary" id="contact">
     <div class="container">
 
@@ -254,10 +267,10 @@ Ventun hace más simple y rápido hacer los pedidos para abastecer tu negocio si
       <p>&copy; Ventun 2019. All Rights Reserved.</p>
       <ul class="list-inline">
         <li class="list-inline-item">
-          <a href="#">Privacy</a>
+        <a href="<?php echo base_url()?>index.php/privacy">Privacy</a>
         </li>
         <li class="list-inline-item">
-          <a href="#">Terms</a>
+        <a href="<?php echo base_url()?>index.php/terms">Terms</a>
         </li>
         <li class="list-inline-item">
           <a href="#">FAQ</a>
